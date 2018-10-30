@@ -4,12 +4,13 @@
                                          font-family: 'Roboto', sans-serif; */
 
 .header{
-    height: 200px;
+    background-color: black;
+    height: 100px;
     width: 100%;
-    background-color: blue;
     font-family: 'Kanit', sans-serif;
     color: white;
-    padding-top: 20px;
+    padding-top: 5px;
+
 }
 
 .top-head{
@@ -22,18 +23,13 @@
 
 .header-logo{
     color: white;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .social-media-links{
     color: white;
     font-size: 20px;
 }
-
-.employee-login-form{
-    display: inline-block;
-}
-
 
 .employee-login-text{
     font-size: 10px;
@@ -45,24 +41,53 @@
     border-color: darkblue;
     background-color: white;
     max-width: 250px;
+    margin: 0 10px 0 0;
 }
 
-.btn-primary{
+.login-button{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5pxpx;
+    color: white;
+    background-color: black;
+    border-color: darkgrey;
+    border-style: none;
+}
+
+
+.bg-image{
+    height: 1000px;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/1311587/pexels-photo-1311587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.landing{
+    height: 1050px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    visibility: hidden;
+    padding-top: 250px;
     
 }
 
-
-
-
-
-
-
-
-.landing{
-    height: 300px;
-    width: 100%;
-    background-color: white;
+.title{
+    text-align: center;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
 }
+
+.landing-list{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    list-style: none;
+}
+
+
+
 
 #container1{
     height: 200px;
