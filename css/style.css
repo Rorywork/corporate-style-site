@@ -1,8 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit|Roboto');
+
+/** how to use fonts                     font-family: 'Kanit', sans-serif;
+                                         font-family: 'Roboto', sans-serif; */
+
 .header{
     height: 200px;
     width: 100%;
-    background-color: red;
+    background-color: blue;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    padding-top: 20px;
 }
+
+.top-head{
+    text-align: center;
+}
+
+.top-head-items{
+    display: inline-block;
+}
+
+.header-logo{
+    color: white;
+    font-size: 50px;
+}
+
+.social-media-links{
+    color: white;
+    font-size: 20px;
+}
+
+.employee-login-form{
+    display: inline-block;
+}
+
+
+.employee-login-text{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.form-control{
+    height: 20px;
+    border-radius: 5px;
+    border-color: darkblue;
+    background-color: white;
+    max-width: 250px;
+}
+
+.btn-primary{
+    
+}
+
+
+
+
+
 
 
 
@@ -14,17 +66,19 @@
 
 #container1{
     height: 200px;
-    background-color: pink
+    background-color: grey
 }
 
 #container2{
     height: 200px;
-    background-color: purple
+    background-color: darkgrey
 }
 
 
 .footer{
     height: 100px;
     width: 100%;
-    background-color: red;
+    background-color: silver;
 }
+
+
