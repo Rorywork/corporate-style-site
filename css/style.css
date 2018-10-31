@@ -67,7 +67,7 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     position: absolute;
-    visibility: hidden;
+    visibility: visible;
     padding-top: 250px;
     
 }
@@ -83,6 +83,12 @@
     color: white;
     text-align: center;
     font-size: 40px;
+    list-style: none;
+}
+
+.landing-list-button{
+    background-color: red;
+    text-align: center;
     list-style: none;
 }
 
