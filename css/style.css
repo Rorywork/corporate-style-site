@@ -48,9 +48,10 @@
     font-family: 'Roboto', sans-serif;
     border-radius: 5px;
     color: white;
-    background-color: darkgrey;
+    background-color: blue;
     border-color: black;
-    border-style: none;
+    border-style: solid;
+    transform: translateY(-10px)
 }
 
 
@@ -60,6 +61,7 @@
     background-image: url("https://images.pexels.com/photos/1311587/pexels-photo-1311587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #0e0e0e;
 }
 
 .landing{
@@ -92,7 +94,47 @@
     list-style: none;
 }
 
+#modal-list{
+    color: black;
+}
 
+.modal-content{
+    margin: 0, auto;
+    margin-top: 200px;
+    height: 700px;
+    border-radius: 25px;
+    background-color: #f7f7f9;
+    border: black 1px solid;
+}
+
+.form-control-text{
+    font-size: 20px;
+    height: 200px;
+    width: 300px
+}
+
+.form-control-email{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    border: black 1px solid;
+}
+
+.text-muted{
+    font-size: 15px;
+}
+
+.modal-header{
+    background-color: red;
+    color: white;
+    border: black 1px solid;
+}
+.modal-footer{
+    background-color: red;
+    border: black 1px solid;
+}
 
 
 #container1{
@@ -131,31 +173,34 @@
 
 .portfolio-image-1{
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 80%px;
     height: 300px;
     width: 500px;
     background: url("../images/jsquiz.png");
     background-repeat: none;
-    border: solid;
+    border: solid 1px;
+    border-color: red;
 }
 
 .portfolio-image-2{
-    margin-left: 200px;
+    margin-left: 15%;
     height: 300px;
     width: 500px;
     background: url("../images/croatiascreenshot.PNG");
     background-repeat: none;
-    border: solid;
+    border: solid 1px;
+    border-color: red;
 }
 
 .portfolio-image-3{
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 80%px;
     height: 300px;
     width: 500px;
     background: url("../images/resumescreenshot.PNG");
     background-repeat: none;
-    border: solid;
+    border: solid 1px;
+    border-color: red;
 }
 
 #portfolio-text{
@@ -185,7 +230,7 @@
 
 .footer{
     padding-top: 20px;
-    height: 100px;
+    height: 300px;
     width: 100%;
     background-color: black;
     text-align: center;

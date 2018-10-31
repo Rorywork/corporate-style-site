@@ -99,7 +99,38 @@
 			<li class="landing-list">Coding lessons to hone your skills</li>
 			<li class="landing-list">Mobile app development</li>
 			<li class="landing-list">A killer team of experts</li>
-			<li class="landing-list"><button class="btn btn-primary">Enquire</button></li>
+			<li id="modal-list" class="landing-list"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enquire</button>
+			
+			<div id="myModal" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+  				
+  			<div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">Your enquiry...</h4>
+		      </div>
+		      <div class="modal-body">
+		        <div class="form-group">
+				    <label for="exampleFormControlTextarea1">Let us help!</label>
+				    <textarea class="form-control-text" id="exampleFormControlTextarea1" rows="3" placeholder="Please give a description of the project or a description of your current coding skills level."></textarea>
+  				</div>
+				<div class="form-group">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" class="form-control-email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  </div>
+
+		      </div>
+		      <div class="modal-footer">
+		        <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+		      </div>
+		    </div>
+		
+		  	</div>
+			</div>
+			
+			
+			</li>
 		</ol>
 	</section>
 	</div>
@@ -184,7 +215,7 @@
   			
   			
     		<div class="col-sm-6" id="portfolio-text">
-      		<h2 class="portfolio-header">Check out the portfolio:</h2>
+      		<h2 class="portfolio-header">Check out the portfolio</h2>
       		<ol class="portfolio-list">
       			<li>Croatian Music Festival</li>
       			<li>Resume Page</li>

@@ -6,7 +6,7 @@ $(document).ready(function() {
     });
     
     $(".bg-image").mouseleave(function(){
-       $(".landing").css("visibility", "visible);
+       $(".landing").css("visibility", "visible");
         
     });
    
